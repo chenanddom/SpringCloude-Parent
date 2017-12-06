@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="data-service-client" />
+        <module name="DataServer" />
+        <module name="Eureka-Client" />
+        <module name="Eureka-Server" />
+        <module name="EurekaRibbon" />
+        <module name="Feign-Client-Consumer" />
+        <module name="Feign-Server-Provider" />
+        <module name="Hystrix-Consumer" />
+        <module name="Hystrix-Server" />
+        <module name="Microservice-turbine" />
+        <module name="MicroService-turbine-service" />
+        <module name="Microservice-turbine2" />
+        <module name="Ribbon-Consumer" />
+        <module name="Ribbon-Server" />
+        <module name="SpringCloude-Parent" />
+        <module name="Zuul-Demo2" />
+        <module name="Zuul-Demo3" />
+        <module name="ZuulDemo" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="data-service-client" target="1.7" />
+      <module name="DataServer" target="1.7" />
+      <module name="Eureka-Client" target="1.7" />
+      <module name="Eureka-Server" target="1.7" />
+      <module name="EurekaRibbon" target="1.7" />
+      <module name="Feign-Client-Consumer" target="1.7" />
+      <module name="Feign-Server-Provider" target="1.7" />
+      <module name="Hystrix-Consumer" target="1.7" />
+      <module name="Hystrix-Server" target="1.7" />
+      <module name="Microservice-turbine" target="1.7" />
+      <module name="MicroService-turbine-service" target="1.7" />
+      <module name="Microservice-turbine2" target="1.7" />
+      <module name="Ribbon-Consumer" target="1.7" />
+      <module name="Ribbon-Server" target="1.7" />
+      <module name="SpringCloude-Parent" target="1.7" />
+      <module name="Zuul-Demo2" target="1.7" />
+      <module name="Zuul-Demo3" target="1.7" />
+      <module name="ZuulDemo" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

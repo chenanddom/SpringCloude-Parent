@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/Eureka-Server/pom.xml" />
+        <option value="$PROJECT_DIR$/Eureka-Client/pom.xml" />
+        <option value="$PROJECT_DIR$/EurekaRibbon/pom.xml" />
+        <option value="$PROJECT_DIR$/DataServer/pom.xml" />
+        <option value="$PROJECT_DIR$/Feign-Server-Provider/pom.xml" />
+        <option value="$PROJECT_DIR$/Feign-Client-Consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/ZuulDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/Zuul-Demo2/pom.xml" />
+        <option value="$PROJECT_DIR$/Zuul-Demo3/pom.xml" />
+        <option value="$PROJECT_DIR$/Ribbon-Server/pom.xml" />
+        <option value="$PROJECT_DIR$/Ribbon-Consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/Hystrix-Server/pom.xml" />
+        <option value="$PROJECT_DIR$/Hystrix-Consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/Microservice-turbine/pom.xml" />
+        <option value="$PROJECT_DIR$/MicroService-turbine-service/pom.xml" />
+        <option value="$PROJECT_DIR$/Microservice-turbine2/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

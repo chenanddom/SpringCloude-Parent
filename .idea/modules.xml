@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/DataServer/DataServer.iml" filepath="$PROJECT_DIR$/DataServer/DataServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DataServer/DataServer-client.iml" filepath="$PROJECT_DIR$/DataServer/DataServer-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Eureka-Client/Eureka-Client.iml" filepath="$PROJECT_DIR$/Eureka-Client/Eureka-Client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Eureka-Server/Eureka-Server.iml" filepath="$PROJECT_DIR$/Eureka-Server/Eureka-Server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EurekaRibbon/EurekaRibbon.iml" filepath="$PROJECT_DIR$/EurekaRibbon/EurekaRibbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Feign-Client-Consumer/Feign-Client-Consumer.iml" filepath="$PROJECT_DIR$/Feign-Client-Consumer/Feign-Client-Consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Feign-Server-Provider/Feign-Server-Provider.iml" filepath="$PROJECT_DIR$/Feign-Server-Provider/Feign-Server-Provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Hystrix-Consumer/Hystrix-Consumer.iml" filepath="$PROJECT_DIR$/Hystrix-Consumer/Hystrix-Consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Hystrix-Server/Hystrix-Server.iml" filepath="$PROJECT_DIR$/Hystrix-Server/Hystrix-Server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MicroService-turbine-service/MicroService-turbine-service.iml" filepath="$PROJECT_DIR$/MicroService-turbine-service/MicroService-turbine-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Microservice-turbine/Microservice-turbine.iml" filepath="$PROJECT_DIR$/Microservice-turbine/Microservice-turbine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Microservice-turbine2/Microservice-turbine2.iml" filepath="$PROJECT_DIR$/Microservice-turbine2/Microservice-turbine2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ribbon-Consumer/Ribbon-Consumer.iml" filepath="$PROJECT_DIR$/Ribbon-Consumer/Ribbon-Consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ribbon-Server/Ribbon-Server.iml" filepath="$PROJECT_DIR$/Ribbon-Server/Ribbon-Server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringCloude-Parent.iml" filepath="$PROJECT_DIR$/SpringCloude-Parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Zuul-Demo2/Zuul-Demo2.iml" filepath="$PROJECT_DIR$/Zuul-Demo2/Zuul-Demo2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Zuul-Demo3/Zuul-Demo3.iml" filepath="$PROJECT_DIR$/Zuul-Demo3/Zuul-Demo3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ZuulDemo/ZuulDemo.iml" filepath="$PROJECT_DIR$/ZuulDemo/ZuulDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DataServer/data-service-client.iml" filepath="$PROJECT_DIR$/DataServer/data-service-client.iml" />
+    </modules>
+  </component>
+</project>

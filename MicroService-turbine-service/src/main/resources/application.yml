@@ -1,0 +1,39 @@
+server:
+  port: 8514
+#config:
+#   userPath: http://192.168.0.100:8091/user/userInfo/getUserList
+spring:
+  application:
+    name: MicroService-turbine-service
+## INFO
+info:
+  app:
+    name: @project.artifactId@
+    encoding: @project.build.sourceEncoding@
+    java:
+      source: @java.version@
+      target: @java.version@
+#eureka信息配置
+eureka:
+  client:
+    serviceUrl:
+#      defaultZone: http://chendom:root123@localhost:8500/eureka/
+      defaultZone: http://localhost:8500/eureka/
+  instance:
+     prefer-ip-address: true
+#     #定制应用的名称
+     instance-id: ${spring.application.name}:${server.port}
+     #请求超时时间，默认是1分钟
+hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 5000
+security.basic.enabled: false
+turbine:
+  aggregator:
+    clusterConfig: default   # 指定聚合哪些集群，多个使用","分割，默认为default。可使用http://.../turbine.stream?cluster={clusterConfig之一}访问
+  appConfig:  Microservice-turbine,Microservice-turbine2  #配置Eureka中的serviceId列表，表明监控哪些服务
+  clusterNameExpression: new String("default")
+  # 1. clusterNameExpression指定集群名称，默认表达式appName；此时：turbine.aggregator.clusterConfig需要配置想要监控的应用名称
+  # 2. 当clusterNameExpression: default时，turbine.aggregator.clusterConfig可以不写，因为默认就是default
+  # 3. 当clusterNameExpression: metadata['cluster']时，假设想要监控的应用配置了eureka.instance.metadata-map.cluster: ABC，则需要配置，同时turbine.aggregator.clusterConfig: ABC
+
+#turbine:
+#  app-config: MICROSERVICE-TURBINE, MICROSERVICE-TURBINE2
